@@ -31,6 +31,8 @@ int main()
     int x=4;
     int index_of_x=b_search(arr,size,x);
     cout<<"\nIndex of x element-->"<<index_of_x;
+   //cout<<"\n\n";
     cout<<"\n\n";
+    //cout<<"\nSolution ends\n";
     return 0;
-}
+    }
