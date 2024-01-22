@@ -1,29 +1,29 @@
 #include<iostream>
 using namespace  std;
-// int b_search(int arr[],int size,int x)
-// {
-//     int low=0;
-//   int  high=size-1;
-//   while(low<=high)
-//   {
-//     int mid=(low+high)/2;
-//     if(arr[mid]==x)
-//     {
-//         return mid;
-//     }
-//     else if(arr[mid]<x)
-//     {
-//         low=mid+1;
-//     }
-//     else
-//     {
-//         high=mid-1;
+int b_search(int arr[],int size,int x)
+{
+    int low=0;
+  int  high=size-1;
+  while(low<=high)
+  {
+    int mid=(low+high)/2;
+    if(arr[mid]==x)
+    {
+        return mid;
+    }
+    else if(arr[mid]<x)
+    {
+        low=mid+1;
+    }
+    else
+    {
+        high=mid-1;
     
-//      }
+     }
      
-//   }
-// return -1;
-// }
+  }
+return -1;
+}
 int r_b_search(int arr[],int size,int low,int high,int x)
 {
     int mid=(low+high)/2;
